@@ -55,3 +55,35 @@ var resultMultiply = multiply(4, 6);
 console.log(resultMultiply);
 console.log(superMultiply);
 console.log(superMultiply(2, 20));
+var heroOne = {
+    name: "Batman",
+    age: 25,
+    address: "서울특별시 강남구 역삼동"
+};
+var heroTwo = {
+    name: "Superman",
+    age: 25,
+    address: "서울특별시 서초구 방배동"
+};
+var heroThree = {
+    name: "Ironman",
+    age: 25,
+    address: "서울특별시 광진구 군자동"
+};
+// let hero2One: heroName2 = {
+//   name: "Batman",
+//   age: 25,
+//   address: "서울특별시 강남구 역삼동"
+// };
+// Union types
+var heroTeam = ["Superman", "Batman"];
+heroTeam = [101, 202];
+heroTeam = [true, false];
+// Check types = typeof
+var finalWinner = "Batman";
+if (finalWinner === "Superman") {
+    console.log(finalWinner);
+}
+if (typeof finalWinner == "string") {
+    console.log(finalWinner);
+}

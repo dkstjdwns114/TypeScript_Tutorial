@@ -98,3 +98,18 @@ type heroName2 = {
 //   age: 25,
 //   address: "서울특별시 강남구 역삼동"
 // };
+
+// Union types
+let heroTeam: string[] | number[] | boolean[] = ["Superman", "Batman"];
+heroTeam = [101, 202];
+heroTeam = [true, false];
+
+// Check types = typeof
+let finalWinner = "Batman";
+
+if (finalWinner === "Superman") {
+  console.log(finalWinner);
+}
+if (typeof finalWinner == "string") {
+  console.log(finalWinner);
+}
